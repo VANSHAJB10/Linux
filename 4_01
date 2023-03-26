@@ -1,0 +1,26 @@
+Q1. write a prog using directory system calls --> make a directory on desktop and create a file inside directory and list contents of directory.
+
+#include<stdio.h>
+#include <sys/stat.h>
+#include <unistd.h>
+#include<fcntl.h>
+#include <stdlib.h>
+#include<dirent.h>
+int main(){
+
+      DIR* dp;
+      struct dirent* dptr;
+      mkdir("Q1",0777);
+      dp=opendir("Q1");
+
+      int fd1=open("Q1/Q1_file.txt",O_CREAT|O_RDONLY,0777);
+      if(dp==NULL){
+            printf("Error : failed to open dir.\n");
+            return 0;
+      }
+      while(NULL!=(dptr=readdir(dp))){
+            printf("%s \n",dptr->d_name);
+      }
+      printf("%d",fd1);
+      closedir(dp);
+}
