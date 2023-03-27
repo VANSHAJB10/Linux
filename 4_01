@@ -1,4 +1,4 @@
-Q1. write a prog using directory system calls --> make a directory on desktop and create a file inside directory and list contents of directory.
+// Q1. write a prog using directory system calls --> make a directory on desktop and create a file inside directory and list contents of directory.
 
 #include<stdio.h>
 #include <sys/stat.h>
