@@ -1,3 +1,10 @@
+int mkdir("pathname/dirname", 0777);   // make a directory
+DIR *opendir("dir name");             //open a directory
+struct dirent *readdir(DIR *dirname) //read from directory
+int rmdir("pathname/dirname");      //remove a direcotry (works on only empty directory)
+
+
+
 /* use directory system call and print contents of directory */
 
 #include<stdio.h>
