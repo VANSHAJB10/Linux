@@ -33,3 +33,4 @@ int main() {
     pthread_join(tid2, NULL);
 
     return 0;
+}
