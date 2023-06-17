@@ -3,3 +3,14 @@ This allows users to write commands and cause actions. Bash is capable of readin
 
 CLI means Command language Interpreter. It interacts with the computer program, where the user issues command in the form of text lines. 
 It Interacts with the computer terminals also, the interface accepts the text lines and converts them as a command to the operating system. 
+
+Shell is a computer program that acts as an interface between the user and the kernel. 
+Users can communicate with the kernel by writing programs, commands, and scripts on the shell. 
+It accepts human-readable commands and converts them into kernel-understandable language.
+
+They are five Shells in Linux:
+C Shell (csh): It is like C syntax and provides spelling checking and job control.
+Korn Shell (ksh): This is a high-level programming language shell.
+Z Shell (Zsh): It provides some unique nature like it observes login/logout watching, file name generating, startup files, and closing comments. 
+Bourne Again Shell (bash): It is the default to Linux distributions.
+Friendly Interactive Shell (Fish): It provides web-based configuration,  auto-suggestions, etc. 
