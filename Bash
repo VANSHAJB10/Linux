@@ -14,3 +14,21 @@ Korn Shell (ksh): This is a high-level programming language shell.
 Z Shell (Zsh): It provides some unique nature like it observes login/logout watching, file name generating, startup files, and closing comments. 
 Bourne Again Shell (bash): It is the default to Linux distributions.
 Friendly Interactive Shell (Fish): It provides web-based configuration,  auto-suggestions, etc. 
+
+
+5 main Directory Commands in Linux:
+
+pwd: Displays the path of the present working directory.
+Syntax: $ pwd
+
+ls: Lists all the files and directories in the present working directory.
+Syntax: $ ls
+
+cd: Used to change the present working directory.
+Syntax: $ cd <path to new directory>
+
+mkdir: Creates a new directory
+Syntax: $ mkdir <name (and path if required) of new directory>
+
+rmdir: Deletes a directory
+Syntax: $ rmdir <name (and path if required) of directory>
