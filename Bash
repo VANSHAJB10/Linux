@@ -32,3 +32,14 @@ Syntax: $ mkdir <name (and path if required) of new directory>
 
 rmdir: Deletes a directory
 Syntax: $ rmdir <name (and path if required) of directory>
+
+
+## If u don't know what a particular command does -->
+whatis : gives information about the command that is passed to it.
+Syntax: whatis date
+
+man: gives the manual of a command
+Syntax: man date 
+    // gives manual of date command 
+
+
