@@ -42,4 +42,5 @@ man: gives the manual of a command
 Syntax: man date 
     // gives manual of date command 
 
-
+date -h : -help command
+   // provides options and use cases of the command 
