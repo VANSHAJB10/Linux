@@ -68,4 +68,7 @@ They can be set, recalled, and cleared with exactly the same syntax used for var
 
 You don’t often use environment variables directly. They’re referenced by individual applications and daemons as needed. 
 For instance, your home directory is set as an environment variable when you log in. 
-For example, on Linux you can see your HOME environment variable's contents like this:
+For example, on Linux you can see your HOME environment variable's contents like this: $ echo $HOME
+
+ *What is the value of the environment variable TERM
+  echo $TERM
