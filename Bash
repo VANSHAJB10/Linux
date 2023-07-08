@@ -50,4 +50,14 @@ apropos : to looks up all commands in a system that have a particular keyword
     gives - modprobe & modeprobe.d
 
 
+To check which shell is currently in use --
+run command: echo $SHELL
 
+to change the current shell of the system
+run command: chsh
+    // You will be asked for a password
+
+Feature of BASH SHELL
+1. Bash Auto Completion  --  typing a few words of file or dir name and then pressing the 'Tab' key to auto-complete the command 
+2. Alias                 --  alias dt-date
+3. Command History       --  history
