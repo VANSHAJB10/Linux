@@ -41,6 +41,13 @@ Syntax: whatis date
 man: gives the manual of a command
 Syntax: man date 
     // gives manual of date command 
+    // gives - description, example, use cases of the command
 
 date -h : -help command
    // provides options and use cases of the command 
+
+apropos : to looks up all commands in a system that have a particular keyword
+    gives - modprobe & modeprobe.d
+
+
+
