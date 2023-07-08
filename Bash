@@ -61,3 +61,11 @@ Feature of BASH SHELL
 1. Bash Auto Completion  --  typing a few words of file or dir name and then pressing the 'Tab' key to auto-complete the command 
 2. Alias                 --  alias dt-date
 3. Command History       --  history
+
+** Environment Variables **
+Environment variables are no different, technically, than variables. 
+They can be set, recalled, and cleared with exactly the same syntax used for variables.
+
+You don’t often use environment variables directly. They’re referenced by individual applications and daemons as needed. 
+For instance, your home directory is set as an environment variable when you log in. 
+For example, on Linux you can see your HOME environment variable's contents like this:
