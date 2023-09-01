@@ -10,6 +10,20 @@ Tags - used to filter
         - OS of Guest
         - Power on/off status
 
+** To make a tag u need to create a category first **
+Tap on Tags and custom attributes >> Create a New category >> select one machine or multiple machine depending on how many machines tags should be assigned >>
+  Assign a name >> Create
+
+** Create Tag **
+Then go on to Create Tag Option ----  Write name >> Description >> Select Category
+
+** Assign tag **
+
+
+** Whether tag is assigned or not? **
+If some tag is present in Remove tag option then it is assigned
+
+
 Q- Difference between Sleep, suspended mode?
 Ans- SLEEP - Only RAMs are powered on , hardware are not
     SUSPENDED - Data is copied to hard disk from the RAM and and then system goes to sleep.
