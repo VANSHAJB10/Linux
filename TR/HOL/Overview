@@ -1,1 +1,15 @@
+Starting process-
 
+
+Template - 
+  Steps- 
+
+Clone
+
+Tags - used to filter
+        - OS of Guest
+        - Power on/off status
+
+Q- Difference between Sleep, suspended mode?
+Ans- SLEEP - Only RAMs are powered on , hardware are not
+    SUSPENDED - Data is copied to hard disk from the RAM and and then system goes to sleep.
