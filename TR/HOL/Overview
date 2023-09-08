@@ -34,13 +34,15 @@ Edit the 'Fault tolerance' if required while turning on the HA in Admission cont
 
 ** DRS **
 -Distributed resource scheduler
+In diff platform diff work is going on, and we need to schedule all the resources for smooth processing.
 
+HA is req to fetch the resources from diff sources on the cloud, in case the need for additional resources arises
 Steps--> Go to the Available resource (Region01 COMP01) > Settings > vSphereAvailability > Turn ON Vsphere HA (Click edit on right side and then turn it on.)
 
 Turn on DRS in similar way 
 Has 3 options - Manual , Automatic, Semi-Automatic
 CPU Overload can be set in the next option on the same window
-
+Power Management has two option - Manual , Automatic
 
 To check if they are active or not - Check the summary (if there is a entry for DRS in the summary then it means it ON)
 
