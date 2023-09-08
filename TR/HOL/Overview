@@ -57,5 +57,8 @@ Steps--> Select a machine > Right click on it > Migrate
 Select a resoure where u want to migrate. (keep on tapping dropdown till it is over, ELSE there will be error)
 
 ** Alarm **
+-Pre built -- Prebuilt events are called Kernel Events
+
+New Alarm can also be added or prebuilt alarms can be sued.
 
 ** Mounting **
