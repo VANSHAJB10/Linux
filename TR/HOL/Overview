@@ -28,10 +28,21 @@ Q- Difference between Sleep, suspended mode?
 Ans- SLEEP - Only RAMs are powered on , hardware are not
     SUSPENDED - Data is copied to hard disk from the RAM and and then system goes to sleep.
 
+Edit the 'Fault tolerance' if required while turning on the HA in Admission control option in that window only
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 ** DRS **
+-Distributed resource scheduler
+
+Steps--> Go to the Available resource (Region01 COMP01) > Settings > vSphereAvailability > Turn ON Vsphere HA (Click edit on right side and then turn it on.)
+
+Turn on DRS in similar way 
+Has 3 options - Manual , Automatic, Semi-Automatic
+CPU Overload can be set in the next option on the same window
+
+
+To check if they are active or not - Check the summary (if there is a entry for DRS in the summary then it means it ON)
 
 ** Migration **
 
