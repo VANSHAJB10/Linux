@@ -44,11 +44,15 @@ Has 3 options - Manual , Automatic, Semi-Automatic
 CPU Overload can be set in the next option on the same window
 Power Management has two option - Manual , Automatic
 
+If DRS Is off then if the requirement changes then it will not increase it will stay fixed and may result in crashing the resource intensive task
+
 To check if they are active or not - Check the summary (if there is a entry for DRS in the summary then it means it ON)
 
 ** Migration **
 Steps--> Select a machine > Right click on it > Migrate
-!!! Important!  -->  TURN Off HA before Migration
+!!! Important!  -->  TURN Off HA before Migration, 
+                      because Migration needs a boundary like fixed RAM , Fixed memory etc 
+                      but if HA is ON then it will fetch resources from cloud if it feels requirements are rising; causing failure of migration.
 
 Select a resoure where u want to migrate. (keep on tapping dropdown till it is over, ELSE there will be error)
 
