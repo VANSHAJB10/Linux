@@ -47,6 +47,10 @@ Power Management has two option - Manual , Automatic
 To check if they are active or not - Check the summary (if there is a entry for DRS in the summary then it means it ON)
 
 ** Migration **
+Steps--> Select a machine > Right click on it > Migrate
+!!! Important!  -->  TURN Off HA before Migration
+
+Select a resoure where u want to migrate. (keep on tapping dropdown till it is over, ELSE there will be error)
 
 ** Alarm **
 
