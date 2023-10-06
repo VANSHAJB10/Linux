@@ -1,1 +1,11 @@
+Learn all commands of OS before end term
 
+Connection of 2 VMs -
+-- use ping command 
+-- ttl 270 (time to live)
+
+Shared folder 
+
+
+Verify ..... ???
+-- use ping command 
