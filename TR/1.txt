@@ -9,3 +9,8 @@ Shared folder
 
 Verify ..... ???
 -- use ping command 
+
+Default network settings??
+-- 
+
+-- in bridged we don't have DHCP so thats why internet donot work
