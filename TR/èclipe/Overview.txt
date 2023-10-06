@@ -6,3 +6,6 @@ tap libraries
 cloudsim >> examples
 
 cloudlets --> 
+
+broker -- bind a cloudlet with its VM
+      -- they need id of cloudlet and VM ...  it fetch the id of VM and Cloudlet from the lest by get() method
