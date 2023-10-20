@@ -1,0 +1,13 @@
+get apt -- command to ...
+
+
+WSL --- Window subsystem for Linux 
+feature in windows 10 and + for using linux commands inside windows.
+
+- Needs to be turned on to use Docker desktop
+- 
+
+
+Containerisation --
+to remove dependiencies on OS containers/Machine specification are used 
+
