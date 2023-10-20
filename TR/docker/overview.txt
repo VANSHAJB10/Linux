@@ -12,4 +12,10 @@ Containerisation --
 to remove dependiencies on OS containers/Machine specification are used 
 
 
-difference between Kill and Terminate??
+What is the difference between Kill and Terminate??
+
+ps-- current running things
+ps -l -- shows all the things which were done cureent+ stoped along with their proper execution time
+
+rm -- remove, things are removed from docker only , can be used in future
+rm -i -- things are removed from host machine also, they are permanently deleted
