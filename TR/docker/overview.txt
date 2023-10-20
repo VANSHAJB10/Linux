@@ -11,3 +11,5 @@ feature in windows 10 and + for using linux commands inside windows.
 Containerisation --
 to remove dependiencies on OS containers/Machine specification are used 
 
+
+difference between Kill and Terminate??
