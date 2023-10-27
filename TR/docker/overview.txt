@@ -36,3 +36,11 @@ You may have multuiple containers
    - how will 100 containers be managed??? with help of ports
    - it has a host and the host has multiple ports and each port has multiple containers
    - if workload immediately increases then it will create one more port automatically and when requirement decreases then the ports are dismental automatically
+
+DOCKER IMAGE INSTALLATION --
+- go to hub.docker.com
+- downlaod image (by running command in cmd)
+- run image by this command:
+   docker run -it --rm -p 5000:5000 nadav42/minesweeper
+               |    |   |   |    |           |
+   initialize   remove port image&container  name of image 
