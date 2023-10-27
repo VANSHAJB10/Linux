@@ -19,3 +19,20 @@ ps -l -- shows all the things which were done cureent+ stoped along with their p
 
 rm -- remove, things are removed from docker only , can be used in future
 rm -i -- things are removed from host machine also, they are permanently deleted
+
+
+CONTAINER 
+- Have base  images but NO Operating system
+- lightweight than VMs
+- docker files have base-files (just like stdio.h of c++)
+
+You may have multuiple containers
+- one maybe running the frontend and other running the backend
+
+- Kubernetes 
+   - Open source platform, created by google
+   - manage diff containers
+   - can't create container
+   - how will 100 containers be managed??? with help of ports
+   - it has a host and the host has multiple ports and each port has multiple containers
+   - if workload immediately increases then it will create one more port automatically and when requirement decreases then the ports are dismental automatically
