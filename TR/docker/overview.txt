@@ -3,6 +3,22 @@ Docker- It makes it possible to get far more apps running on the same old server
 --> Containers, use shared operating systems. This means they are much more efficient than hypervisors in system resource terms. Instead of virtualizing hardware, containers rest on top of a single Linux instance. This means you can "leave behind the useless 99.9 percent VM junk, leaving you with a small, neat capsule containing your application". 
 With a perfectly tuned container system, you can have as many as four-to-six times the number of server application instances as you can using Xen or KVM VMs on the same hardware.
 
+Useful Docker commands--
+docker –version
+docker pull
+docker run
+docker ps
+docker ps -a
+docker exec
+docker stop
+docker kill
+docker commit
+docker login
+docker push
+docker images
+docker rm
+docker rmi
+docker build
 
 
 get apt -- command to ...
