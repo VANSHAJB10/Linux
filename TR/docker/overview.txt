@@ -1,7 +1,14 @@
-Docker- It makes it possible to get far more apps running on the same old servers and it also makes it very easy to package and ship programs
+Docker- 
+A tool that manages, and scale containers.
+No need to install new OS to run different applications
+
+
+It makes it possible to get far more apps running on the same old servers and it also makes it very easy to package and ship programs
 -- Why embrace docker?
 --> Containers, use shared operating systems. This means they are much more efficient than hypervisors in system resource terms. Instead of virtualizing hardware, containers rest on top of a single Linux instance. This means you can "leave behind the useless 99.9 percent VM junk, leaving you with a small, neat capsule containing your application". 
 With a perfectly tuned container system, you can have as many as four-to-six times the number of server application instances as you can using Xen or KVM VMs on the same hardware.
+
+Docker does not require an installed OS.
 
 Useful Docker commands--
 docker –version
@@ -48,9 +55,24 @@ CONTAINER
 - Have base  images but NO Operating system
 - lightweight than VMs
 - docker files have base-files (just like stdio.h of c++)
+- One OS can run all the applications with the help of containers
+
 
 You may have multuiple containers
 - one maybe running the frontend and other running the backend
+
+
+
+
+Hypervisor vs Container
+- One machine is virtually divided into new machines(VMs)  -- (multiple applications run on different OS (OS of VM) ).
+- Only one OS and on top of it we have a Container engine  -- (multiple applications run on a single OS)
+
+
+
+
+
+
 
 - Kubernetes 
    - Open source platform, created by google
