@@ -82,6 +82,12 @@ Hypervisor vs Container
    - it has a host and the host has multiple ports and each port has multiple containers
    - if workload immediately increases then it will create one more port automatically and when requirement decreases then the ports are dismental automatically
 
+Hardware Units:
+Node: the smallest unit of computing hardware in Kubernetes, easily thought of as one individual machine.
+Cluster: a collection of nodes that are grouped together to provide intelligent resources sharing and balancing.
+
+
+
 DOCKER IMAGE INSTALLATION --
 - go to hub.docker.com
 - downlaod image (by running command in cmd)
