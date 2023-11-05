@@ -93,6 +93,13 @@ Kubernetes pod: a collection of one or more Linux containers, packaged together 
 
 Individual hardware is represented in Kubernetes as a node. Multiple of those nodes are collected into clusters, allowing compute power to be distributed as needed. Running on those clusters are pods, which ensures that any tightly coupled containers within them will be run together on the same cluster
 
+PODS:
+A Kubernetes pod is a collection of one or more Linux® containers, and is the smallest unit of a Kubernetes application. 
+Any given pod can be composed of multiple, tightly coupled containers (an advanced use case) or just a single container (a more common use case). 
+Containers are grouped into Kubernetes pods in order to increase the intelligence of resource sharing.
+
+Within the Kubernetes system, containers in the same pod will share the same compute resources. These compute resources are pooled together in Kubernetes to form clusters, which can provide a more powerful and intelligently distributed system for executing applications. 
+
 
 DOCKER IMAGE INSTALLATION --
 - go to hub.docker.com
