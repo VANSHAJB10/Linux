@@ -100,6 +100,9 @@ Containers are grouped into Kubernetes pods in order to increase the intelligenc
 
 Within the Kubernetes system, containers in the same pod will share the same compute resources. These compute resources are pooled together in Kubernetes to form clusters, which can provide a more powerful and intelligently distributed system for executing applications. 
 
+The relationship of pods to clusters is why Kubernetes does not run containers directly, instead running pods to ensure that each container within them shares the same resources and local network. Grouping containers in this way allows them to communicate between each other as if they shared the same physical hardware, while still remaining isolated to some degree.
+
+
 
 DOCKER IMAGE INSTALLATION --
 - go to hub.docker.com
