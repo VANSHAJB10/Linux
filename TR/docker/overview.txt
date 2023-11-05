@@ -80,12 +80,18 @@ Hypervisor vs Container
    - can't create container
    - how will 100 containers be managed??? with help of ports
    - it has a host and the host has multiple ports and each port has multiple containers
-   - if workload immediately increases then it will create one more port automatically and when requirement decreases then the ports are dismental automatically
+   - if workload immediately increases then it will create one more port automatically and when requirement decreases then the ports dismental automatically
+
 
 Hardware Units:
 Node: the smallest unit of computing hardware in Kubernetes, easily thought of as one individual machine.
 Cluster: a collection of nodes that are grouped together to provide intelligent resources sharing and balancing.
 
+Software units
+Linux container: a set of one or more processes, including all necessary files to run, making them portable across machines.
+Kubernetes pod: a collection of one or more Linux containers, packaged together to maximize the benefits of resource sharing via cluster management.
+
+Individual hardware is represented in Kubernetes as a node. Multiple of those nodes are collected into clusters, allowing compute power to be distributed as needed. Running on those clusters are pods, which ensures that any tightly coupled containers within them will be run together on the same cluster
 
 
 DOCKER IMAGE INSTALLATION --
