@@ -8,3 +8,7 @@ do
     fi
     n=$((n+1));
 done < file.txt
+
+#Bash Shell
+1. It supports command auto completion
+2. allows settinf custom alias for commands. eg--> $ alias dt=date
