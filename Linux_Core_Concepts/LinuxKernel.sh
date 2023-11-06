@@ -11,4 +11,5 @@ done < file.txt
 
 #Bash Shell
 1. It supports command auto completion
-2. allows settinf custom alias for commands. eg--> $ alias dt=date
+2. allows setting custom alias for commands. eg--> $ alias dt=date
+3. $ history --> to get a list of previously run commands
