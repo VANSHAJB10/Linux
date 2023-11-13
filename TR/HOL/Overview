@@ -2,9 +2,16 @@ Starting process-
 
 
 Template - 
-  Steps- 
+1. Main copy of VM
+2. Used to create and provision a new VM
+3. includes an installed guest operating system and a set of applications.
+4. It captures the configuration of software, configuration of hardware, and the software installed on the virtual machine on which the template is based.
+  
+Steps to create a Template- 
 
-Clone
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Clone -
 
 Tags - used to filter
         - OS of Guest
