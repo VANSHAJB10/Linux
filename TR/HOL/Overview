@@ -8,7 +8,7 @@ Template -
 4. It captures the configuration of software, configuration of hardware, and the software installed on the virtual machine on which the template is based.
 5. Whereas a template serves as a baseline image for creating multiple VMs, a VM clone is an exact copy, sharing many of the hardware and software configuration settings, including unique identifiers.
 
-6. You can not power on/off or edit a template.
+6. You can not power on/off or edit a template. BUT Clone VM can be powered off and on.
 7. A template offers a more secure way of preserving a virtual machine configuration that you want to deploy many times.
 8. good for mass VM deployment in the production environment.
 9. You can convert the template back to Virtual Machine to update the baseline template with the latest configuration and again convert back to the template to be used for future deployment of VMs
@@ -21,7 +21,15 @@ Steps to create a Template-
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-Clone -
+Clone - 
+1. Clone is the exact copy of the existing VM. You can alter the name and configuration during the cloning process.
+2. Clone VMs are best suited for Tests or DR environments.
+3. Cloning a virtual machine creates a virtual machine that is a copy of the original. 
+   The new virtual machine is configured with the same virtual hardware, installed software, and other properties that were configured for the original virtual machine.
+4. 
+
+
+
 
 Tags - used to filter
         - OS of Guest
